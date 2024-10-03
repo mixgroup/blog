@@ -7,7 +7,6 @@
 
 @import "reset";
 @import "variables";
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -20,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $DMsans;
+  font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -32,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "DM Sans", sans-serif;
+  font-family: $helveticaNeue;
   color: $darkerGray;
   font-weight: bold;
 
@@ -70,11 +69,11 @@ p {
 }
 
 a {
-  color: #005ff5;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #005ff5;
+    color: $blue;
   }
 }
 
@@ -195,7 +194,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: "DM Sans", sans-serif;
+  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -214,7 +213,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: "DM Sans", sans-serif;
+  font-family: $helveticaNeue;
   font-size: 18px;
 
   @include mobile {
@@ -233,7 +232,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: #005ff5;
+      color: $blue;
     }
   }
 }
