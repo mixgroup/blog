@@ -7,8 +7,20 @@
 
 @import "reset";
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 // Syntax highlighting @import is at the bottom of this file
 
+
+/*************/
+/*   FONTS   */
+/*************/
+
+.dm-sans-400 {
+  font-family: "DM Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+	
 /**************/
 /* BASE RULES */
 /**************/
