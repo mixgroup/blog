@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Powering relations
 
+<!---
+your comment goes here
+and here
 ### More Information
 
 A place to include any other types of information that you'd like to include about yourself.
+-->
 
-### Contact me
+### Contacts
 
-[email@domain.com](mailto:email@domain.com)
+[qtwnds@pointcove.xyz](mailto:qtwnds@pointcove.xyz)
